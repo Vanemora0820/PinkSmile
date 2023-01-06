@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.contenedor {
+  width: 90%;
+  margin: auto;
+}
+
+.navegacion-principal {
+  font-style: 'Bree Serif', serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+  background-color:  rgba(206, 100, 248, 0.6);
+}
+
+.imagen-menu {
+  width: 50px;
+}
+
+.navegacion-principal ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacion-principal ul li {
+  padding: 40px;
+}
+
+.navegacion-principal ul.menu-navegacion {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.navegacion-principal ul li a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.navegacion-principal ul li a {
+  padding: 5px;
+}
+
+hr {
+  margin-bottom: 15px;
+}
+
+.encabezado {
+  width: 100%;
+  height: 300px;
+  background: url("../img/ImgPinkSmile/logos/LogoOriginal.jpg") no-repeat center center/cover;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+}
+
+.btn-tarea {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #262626;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid #ffffff;
+  margin: 10px 0;
+}
+
+.btn-tarea:hover {
+  opacity: 0.7;
+}
+
+.encabezado h2 {
+  margin-bottom: 10px;
+}
+
+.bloque-noticias {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.bloque-noticias img {
+  width: 100%;
+  height: 180px;
+}
+
+.bloque-noticias h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.bloque-noticias a {
+  padding: 10px 0;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.bloque-noticias a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  background: url("../img/ImgPinkSmile/Redes/JuegoHot.jpg") no-repeat center center/cover;
+  padding: 0px 50px 20px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color:  rgb(38, 2, 53);
+}
+
+.banner2-fondo {
+  background: url("../img/ImgPinkSmile/logos/LogoRosado.jpg") no-repeat center center/cover;
+}
+
+.banner h2 {
+  margin-bottom: 10px;
+}
+
+.redes-sociales {
+  margin: 50px;
+  font-style: 'Caveat', cursive;
+  color:  rgba(206, 100, 248, 0.6);
+  
+}
+
+
+.redes-sociales p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a:hover {
+  color: rgba(206, 100, 248, 0.6); 
+  transform: scale(1.5);
+}
+
+.links a i {
+  font-size: 40px;
+}
+
+.pie-pagina {
+  background-color: rgba(206, 100, 248, 0.6); 
+}
+
+.contenedor-piepagina {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 40px;
+}
+
+.contenedor-piepagina ul {
+  margin: auto;
+  align-items: center;
+}
+
+.contenedor-piepagina ul li {
+  margin-bottom: 10px;
+}
+
+
+
+/**** ajuste de clases ***/
+
+
+.division_horizontal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px 10px 30px 10px;
+}
+
+.imagen_banner_1 {
+  width: 100%;
+  height: 300px;
+  background: url("../img/ImgPinkSmile/Redes/JuegoHot.jpg") no-repeat center center/cover;
+}
+
+.texto_banner_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.texto_banner_1 h2 {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto_banner_1 p {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
